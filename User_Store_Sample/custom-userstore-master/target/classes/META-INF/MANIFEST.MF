@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1584437919967
+Build-Jdk: 1.8.0_201
+Built-By: krishni
+Bundle-ManifestVersion: 2
+Bundle-Name: com.wso2.carbon.custom.user.store.manager
+Bundle-SymbolicName: com.wso2.carbon.custom.user.store.manager
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: com.wso2.carbon.custom.user.store.manager;version="1.0.0
+ ";uses:="org.wso2.carbon.user.api,org.wso2.carbon.user.core,org.wso2.ca
+ rbon.user.core.claim,org.wso2.carbon.user.core.jdbc,org.wso2.carbon.use
+ r.core.profile"
+Import-Package: org.apache.commons.logging;version="1.0.4",org.osgi.fram
+ ework;version="[1.8,2)",com.wso2.carbon.custom.user.store.manager;versi
+ on="[1.0,2)",org.osgi.service.component;resolution:=optional;version="[
+ 1.3,2)",org.wso2.carbon.user.api;resolution:=optional;version="[1.0,2)"
+ ,org.wso2.carbon.user.core;resolution:=optional;version="[4.6,5)",org.w
+ so2.carbon.user.core.claim;resolution:=optional;version="[4.6,5)",org.w
+ so2.carbon.user.core.jdbc;resolution:=optional;version="[4.6,5)",org.ws
+ o2.carbon.user.core.profile;resolution:=optional;version="[4.6,5)",org.
+ wso2.carbon.user.core.service;resolution:=optional;version="[4.6,5)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Service-Component: OSGI-INF/serviceComponents.xml
+Tool: Bnd-4.2.0.201903051501

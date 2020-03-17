@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.wso2.carbon.custom.user.store.manager.component" name="%com.wso2.carbon.custom.user.store.manager.component.name" description="%com.wso2.carbon.custom.user.store.manager.component.description"/>
+    <Designate pid="com.wso2.carbon.custom.user.store.manager.component">
+        <Object ocdref="com.wso2.carbon.custom.user.store.manager.component"/>
+    </Designate>
+</metatype:MetaData>
